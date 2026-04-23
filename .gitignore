@@ -1,0 +1,19 @@
+# 忽略敏感配置文件
+.env
+.env.local
+.env.*
+
+# 忽略大体积海报文件夹
+frontend/public/static/posters/
+
+# 忽略 node_modules 和 Python 虚拟环境
+node_modules/
+__pycache__/
+venv/
+.venv/
+
+# 忽略日志和临时文件
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
